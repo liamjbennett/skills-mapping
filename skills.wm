@@ -1,0 +1,76 @@
+title Skills Map
+
+component service design [0.88, 0.47]
+component pricing [0.79, 0.30]
+component financial management [0.66, 0.77]
+component operations [0.77, 0.68]
+component development [0.81, 0.56]
+component agile [0.54, 0.74]
+component code [0.58, 0.33]
+component devops [0.57, 0.64]
+component ITIL [0.80, 0.78]
+component CI/CD [0.66, 0.62]
+component release engineering [0.51, 0.80]
+component java [0.38, 0.52]
+component C# [0.37, 0.40]
+component golang [0.44, 0.16]
+component python [0.42, 0.52]
+component IaC [0.51, 0.64]
+component puppet [0.42, 0.78]
+component terraform [0.43, 0.66]
+component pulumi [0.40, 0.16]
+component architecture [0.68, 0.30]
+component communication [0.97, 0.73]
+component presenting [0.98, 0.64]
+component writing [0.93, 0.36]
+component strategy [0.82, 0.47]
+component leadership [0.89, 0.76]
+component creativity [0.81, 0.11]
+component problem solving [0.95, 0.24]
+
+service design -> pricing
+pricing -> financial management
+
+service design -> operations
+service design -> development
+operations -> ITIL
+operations -> devops
+
+devops -> agile
+devops -> IaC
+IaC -> terraform
+IaC -> puppet
+IaC -> pulumi
+
+development -> agile
+agile -> CI/CD
+agile -> release engineering
+
+development -> code
+code -> java
+code -> C#
+code -> python
+code -> golang
+
+architecture -> service design
+architecture -> devops
+architecture -> communication
+architecture -> strategy
+architecture -> problem solving
+
+communication -> presenting
+communication -> writing
+
+strategy -> leadership
+
+problem solving -> creativity
+creativity -> writing
+creativity -> presenting
+creativity -> research
+
+
+
+
+
+
+component research [0.34, 0.05]
