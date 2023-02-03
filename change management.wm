@@ -1,0 +1,16 @@
+title Change Management
+
+component change management [0.55, 0.48] label [5, -10]
+component project management [0.47, 0.48] label [5, -10]
+component organisation skills [0.15, 0.25]
+component communication [0.96, 0.45]
+component leadership [0.81, 0.75]
+component research [0.08, 0.03]
+
+change management -> leadership
+change management -> research
+change management -> communication
+change management -> strategy
+change management -> project management
+
+project management -> organisation skills

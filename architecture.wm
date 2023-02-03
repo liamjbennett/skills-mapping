@@ -1,0 +1,46 @@
+title Architecture Skills
+
+component architecture [0.60, 0.34] label [16, -4]
+component service design [0.93, 0.48]
+component devops [0.51, 0.65]
+component communication [0.27, 0.61] 
+
+component devops [0.51, 0.65]
+component agile [0.50, 0.75]
+component code [0.41, 0.30]
+component CI/CD [0.57, 0.74]
+component release engineering [0.46, 0.80]
+component java [0.26, 0.53]
+component C# [0.25, 0.40]
+component golang [0.34, 0.14]
+component python [0.31, 0.53]
+component IaC [0.41, 0.59]
+component puppet [0.34, 0.81]
+component terraform [0.33, 0.66]
+component pulumi [0.23, 0.11]
+component development [0.71, 0.50]
+
+submap strategy
+
+architecture -> service design
+architecture -> devops
+architecture -> communication
+architecture -> strategy
+architecture -> problem solving
+
+devops -> agile
+devops -> IaC
+IaC -> terraform
+IaC -> puppet
+IaC -> pulumi
+
+development -> agile
+development -> code
+
+agile -> CI/CD
+agile -> release engineering
+
+code -> java
+code -> C#
+code -> python
+code -> golang
