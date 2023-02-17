@@ -1,27 +1,27 @@
 title Skills Map
 
-component service design [0.90, 0.49]
-component pricing [0.72, 0.34]
-component financial management [0.16, 0.14]
-component operations [0.67, 0.67]
-component devops [0.51, 0.65]
-component ITIL [0.72, 0.78]
+component service design [0.84, 0.49]
+component pricing [0.65, 0.37]
+component financial management [0.17, 0.25]
+component operations [0.64, 0.66]
+component devops [0.623, 0.59] label [-20, 24]
+component ITIL [0.623, 0.74] label [-12, 24]
 
-submap architecture [0.60, 0.34]
-component communication [0.37, 0.62]
+submap architecture [0.54, 0.25] label [-31, 25]
+component communication [0.05, 0.79]
 component presenting [0.94, 0.64]
-component strategy [0.79, 0.61]
-component leadership [0.81, 0.75]
-submap problem solving [0.95, 0.24]
-component research [0.20, 0.03]
-submap change management [0.55, 0.48] label [5, -10]
-component coaching [0.95, 0.16] label [-18, -13]
+component strategy [0.71, 0.49]
+component leadership [0.85, 0.68]
+submap problem solving [0.89, 0.27]
+component research [0.26, 0.10] label [-21, 20]
+submap change management [0.47, 0.48] label [5, -10]
+component coaching [1.00, 0.14] label [-25, 21]
 component consulting [0.99, 0.62]
-component relationship building [1.01, 0.15] label [12, -5]
-component product knowledge [0.88, 0.20] label [5, -10]
-component sales [0.75, 0.08]
-component customer enagement [0.96, 0.10] label [-46, -32]
-component portfolio development [0.83, 0.20] label [-22, 14]
+component product knowledge [0.84, 0.22] label [5, -10]
+component sales [0.65, 0.07]
+component customer enagement [0.98, 0.07] label [-46, -32]
+component portfolio development [0.79, 0.22] label [-22, 14]
+component relationships [0.92, 0.20]
 
 service design -> pricing
 pricing -> financial management
@@ -29,6 +29,8 @@ pricing -> financial management
 // this needs to move into architecture
 service design -> operations
 service design -> development
+
+pipeline operations [0.58, 0.75]
 operations -> ITIL
 operations -> devops
 
@@ -59,7 +61,7 @@ project management -> organisation skills
 leadership -> coaching
 
 consulting -> presenting
-consulting -> relationship building
+consulting -> relationships
 consulting -> strategy
 consulting -> problem solving
 consulting -> sales
@@ -67,12 +69,21 @@ consulting -> sales
 sales -> customer enagement
 sales -> product knowledge
 
-customer enagement -> relationship building
+customer enagement -> relationships
 
-relationship building -> network
-relationship building -> communication
+//relationships -> network
 
 portfolio development -> research
 portfolio development -> product knowledge
 portfolio development -> customer enagement
 portfolio development -> pricing
+
+coaching -> relationships
+//evolve coaching 0.39
+
+//evolve architecture 0.32
+
+//evolve research 0.21 label [-21, 21]
+
+
+
